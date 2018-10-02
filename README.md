@@ -3,7 +3,7 @@
 ### Exemplo
 
 ```php
-print FloatBaseConverter::convertValueBetweenZeroToOneToBinary(0.324);
+print FloatBaseConverter::convertValueBetweenZeroAndOneToBinary(0.324);
 ```
 Output
 ```
