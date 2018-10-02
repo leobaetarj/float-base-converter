@@ -4,10 +4,10 @@ class FloatBaseConverter
 {
     /**
      * @param float $floatNumber
-     * @return float
+     * @return string
      * @throws Exception
      */
-    public static function convertToBinaryBetweenZeroToOneValue(float $floatNumber): float
+    public static function convertValueBetweenZeroAndOneToBinary(float $floatNumber): string
     {
         $baseResult = '';
 
@@ -34,5 +34,3 @@ class FloatBaseConverter
         return $baseResult;
     }
 }
-
-print FloatBaseConverter::convertToBinaryBetweenZeroToOneValue(0.324);
